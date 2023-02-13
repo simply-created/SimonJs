@@ -1,0 +1,104 @@
+.largeSize {
+    width: 400px;
+    height: 400px;
+}
+
+.disk {
+    background-color: rgb(47, 49, 47);
+    border-radius: 50%;
+}
+
+.mainCircle {
+    background: linear-gradient(#252424, #4f504f);
+    position: absolute;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    top: 375px;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* prevents absolute from moving*/
+}
+
+.subCircle {
+    background-color: rgb(47, 49, 47);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 420px;
+    height: 450px;
+    top: 325px;
+    right: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* prevents absolute from moving*/
+}
+
+.response {
+    width: 250px;
+    height: 65px;
+    font-size: 40px;
+    position: absolute;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    top: 500px;
+    background: linear-gradient(#cdcdcd, #f3f3f3);
+    border-radius: 5px;
+}
+
+.textCentral {
+    font-size: 300%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 400px;
+}
+
+.startButton {
+    width: 200px !important;
+    height: 75px !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    text-align: center !important;
+    top: 610px !important;
+    background: linear-gradient(#323232, #4f504f) !important;
+    border-radius: 120px !important;
+}
+
+.green {
+    /* background-color: rgb(14, 68, 37); */
+    border-top-left-radius: 100%;
+}
+
+
+.red {
+    background-color: rgb(128, 40, 28);
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    background-color: rgb(173, 141, 13);
+    border-bottom-left-radius: 100%;
+}
+
+.blue {
+    background-color: rgb(37, 108, 154);
+    border-bottom-right-radius: 100%;
+}
+
+/* .green:hover {
+    background-color: rgb(36, 174, 95);
+}
+
+.red:hover {
+    background-color: rgb(191, 59, 42);
+}
+
+.yellow:hover {
+    background-color: rgb(238, 196, 24);
+}
+
+.blue:hover {
+    background-color: rgb(59, 150, 208);
+} */
